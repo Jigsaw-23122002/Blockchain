@@ -6,12 +6,12 @@ For eg: Tanga was replaced by car, bus and other vehicles as they are fast and m
 
 (Blockchain is used for trust environment on internet).
 
-## What is trust ?
+## What is Trust ?
 
 Let's consider an example of buying a coffee from the reputed coffee store which promises to provide some good ingredients into its coffee. But how can we actually know that the coffee which the reputed store providing actually contains those nutrients.
 So Using blockchain, we can have some trust under such conditions.
 
-## Blockchain technology 
+## Blockchain Technology 
 
 In layman language, blockchain is a decentralized, immutable and transparent ledger.
 (Ledger is like a entry book or data book which keeps the track of all transaction).
@@ -25,7 +25,7 @@ Now whenever some change is done to the blockchain in one device, the changes if
 
 This gives rise to the question in our mind that - the copy of ledger is available with everyone on the network. So everone will be able to see our transactions. But this is not the case, the block contains all its data encrypted and its data can only be accessed by the one who are the owner of the block in the blockchain. So the data is very safe.
 
-## Applications of blockchain 
+## Applications Of Blockchain 
 
 1) Product tracking (can be used to check whether the product is original or fake)
 2) Smart contract (It is special type of program that runs on etherium blockchain)
@@ -64,7 +64,7 @@ We know that every block in the blockchain stores the hash of the previous block
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/05.png)
 
-## P2P network
+## P2P Network
 
 In P2P networks, there is no centralized database and the data is kept distributed on the clients on the networks and sometimes copy of the same data is also kept on multiple clients on the network.
 This eliminates the risks due to hacking.(There is no centralized server for hackers to hack it. Multiple copies of data are available on multiple clients on the network so if one of the client is hacked and some changes are done on the copy of data reciding in the hacked computer then the same data can be retirived from another client on the network)
