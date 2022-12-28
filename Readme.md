@@ -20,7 +20,7 @@ So Using blockchain, we can have some trust under such conditions.
 In layman language, blockchain is a decentralized, immutable and transparent ledger.
 (Ledger is like a entry book or data book which keeps the track of all transaction).
 
-Lets consider the example of a shopkeeper selling a flour to a man in debt of rupees 1000 and enters this debt record into its ledger book in front of man. But after the man goes from the shop, the shopkeeper changes this 1000 rs to 2000 rs. So this is wrong.
+Lets consider the example of a shopkeeper selling a flour to a man in debt of rupees 1000 and enters this debt record into its ledger book in front of man. But after the man departs from the shop, the shopkeeper changes this 1000 rs to 2000 rs. So this is wrong.
 
 In case of blockchain, this record is stored in the BLOCK and this CHAIN of BLOCKS(records) form the ledger book. In blockchain, the data once feed to the block can NEVER be changed.
 Now whenever some change is done to the blockchain in one device, the changes if valid are reflected in all the other copy of blockchain available with all the devices on the network. So this means that blockchain is decentralized.
