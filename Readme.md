@@ -93,6 +93,8 @@ In this, the group of miners try to solve a particular mathematical problem. A m
 
 ## Byzantine Generals Problem
 
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/09.png)
+
 This problem is commonly faced in case of distributed computing system.
 To understand this problem, let's consider the case where there is a kingdom which has to attacked by the 4 enemies from 4 different directions (N,E,W,S).
 Now in ideal case when the conditions was actaully favourable for the attack, all the four enemies would simultaneouly agree to attack onto the kingdom.
@@ -102,5 +104,3 @@ So this is _Byzantines General Problem_.
 So as to avoid this, Miguel Castro provided the solution to this problem called _Byzantine Fault Tolerance_.
 
 Byzantine Fault Tolerance states that the distributed system can tolerate 1/3 of the total population of the network as the network hackers because the decision is always based on the majority so 2/3 will always take the correct decision no matter what decision the remaining 1/3 will take.
-
-![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/09.png)
