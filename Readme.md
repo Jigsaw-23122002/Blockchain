@@ -93,3 +93,10 @@ In this, the group of miners try to solve a particular mathematical problem. A m
 
 ## Byzantine Generals Problem
 
+This problem is commonly faced in case of distributed computing system.
+To understand this problem, let's consider the case where there is a kingdom which has to attacked by the 4 enemies from 4 different directions (N,E,W,S).
+Now in ideal case when the conditions was actaully favourable for the attack, all the four enemies would simultaneouly agree to attack onto the kingdom.
+But there might be some case when one or more than one enemy can disagree to attack on the kingdom. This is because they might be the traitor among the enemies.
+So in actual we don't know whether the disagreement to attack the kingdom was because of some valid reason or they were the traitors.
+So this is *Byzantines General Problem*.
+So as to avoid this, Miguel Castro provided the solution to this problem called *Byzantine Fault Tolerance*.
