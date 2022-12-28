@@ -185,3 +185,34 @@ Take Bitcoin and Ethereum – one of the most popular cryptocurrencies – for e
 As you start to grasp, all the important rules are defined by the protocols – consensus, validation, and participation in the network. That’s why every cryptocurrency is different and unique, even those based on Bitcoin.
 
 If you think about it, you’ll realize that you’re already using one protocol without even knowing it. I’m talking about BitTorrent, which allows us to send files through a torrent application, which runs the BitTorrent protocol.
+
+## What is the difference between coins and tokens?
+
+Now when we know what blockchain and protocols are, we can explain the difference between coins and tokens. We said already that most people often use them interchangeably. As you would see, there is a difference between the two, even though it’s not as blaring as between Bitcoin and the blockchain.
+
+If we have to divide cryptocurrencies into groups, we would have:
+
+1. Bitcoin and Altcoins/coin
+2. Tokens
+
+The name “altcoin” comes from alternative coins. All cryptocurrencies created after Bitcoin are altcoins. For example, ​Ripple, ​Cardano, Monero, or Litecoin. Sometimes they are simply called “coins” for short.
+
+Most altcoin cryptocurrencies are build using the original Bitcoin protocol. That doesn’t mean that they are identical with Bitcoin. The developers have made changes in the code, which results in a new coin with new features, which bears a similarity to Bitcoin. Examples of such coins are Litecoin, Bitcoin Cash, and Namecoin.
+
+Others, like Ethereum, have their unique blockchain and protocol, which doesn’t have anything to do with Bitcoin. They also offer some additional features, which we are going to discuss later.
+
+## What are coins?
+
+So, coins are the native digital assets of their blockchain. In simple words, Bitcoin operates on the Bitcoin blockchain following the Bitcoin protocol. It can’t function or operate on another blockchain like Ethereum. That’s why, if you want to buy something with bitcoins, you can’t do it on Ethereum. You’ll have to convert the bitcoin into Ether.
+
+Since most altcoins follow the steps of Bitcoin, they have the same goals as Bitcoin – to function as money. In other words, they are a unit of account, a store of value, and a medium of exchange. You can store them if you like and wait for their price to go up and then sell. You can use them to buy goods, or you can exchange them for other digital currencies.
+
+However, some altcoins like Ethereum doesn’t function simply as currencies. And here is where tokens come into the picture, and things get complicated.
+
+## What are tokens?
+
+Tokens exist on top of another blockchain, so they are not a separate currency with its own blockchain. While “coins” are used to purchase goods or pay for services, tokens can represent anything tradable – a utility, an asset or both. Also, coins can exist independently, but tokens can’t.
+
+Usually, people create tokens on the Ethereum platform, but you can also use NEO or Waves. Unlike “coins” like Bitcoin, which require significant processing power to mine, tokens are easy to create by following the provided template on the platform. Even someone with little programming experience can do it, as long as he is ready to try.
+
+However, to build tokens, you need “coins.” Did you get confused already? Let’s illustrate. If you want to make a token on Ethereum, you’ll have to spend some Ethers (the native digital asset of the Ethereum blockchain) to validate the creation. You’ll also have to pay fees if you want to send the token to someone else.
