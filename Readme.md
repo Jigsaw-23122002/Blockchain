@@ -216,3 +216,24 @@ Tokens exist on top of another blockchain, so they are not a separate currency w
 Usually, people create tokens on the Ethereum platform, but you can also use NEO or Waves. Unlike “coins” like Bitcoin, which require significant processing power to mine, tokens are easy to create by following the provided template on the platform. Even someone with little programming experience can do it, as long as he is ready to try.
 
 However, to build tokens, you need “coins.” Did you get confused already? Let’s illustrate. If you want to make a token on Ethereum, you’ll have to spend some Ethers (the native digital asset of the Ethereum blockchain) to validate the creation. You’ll also have to pay fees if you want to send the token to someone else.
+
+## Bitcoin's Monetory policy
+
+Every country has a simple authority which determines/decides/controls how much of money will be in circulation in our system.
+To maintain the demand and supply of money, Monetory policies are used.
+Since, Bitcoin is also related to money/transaction, there has to be some monetory policy for it to control its supply.
+
+The two principles given by Satoshi Nakamoto for bitcoin's monetory policy are :
+
+1. Halving
+2. Block Frequency
+
+- **Halving**
+  It states that when the number of block increases by 210,000 then the reward value id decreased by half.
+  <br/><br/>
+  ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/14.png)
+
+  In the above table we can see that in 2009 the number of blocks was 0 and at that time the reward given for mining a particular block was 50 bitcoins. But as the mining increased and when the number of blocks mined reached 210,000 in 2012 then after that the reward for mining a new block was halved to 25 bitcoins only.
+  So, In this way it is estimated that in 2140 the reward of mining the block will be 0 bitcoins.
+
+  Satoshi estimated this start value of 50 bitcoins by considering the constraint that only 21 million bitcoins will be available for transaction in all together.
