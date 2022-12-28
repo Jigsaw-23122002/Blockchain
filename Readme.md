@@ -229,6 +229,7 @@ The two principles given by Satoshi Nakamoto for bitcoin's monetory policy are :
 2. Block Frequency
 
 - **Halving**
+  <br/>
   It states that when the number of block increases by 210,000 then the reward value id decreased by half.
   <br/><br/>
   ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/14.png)
