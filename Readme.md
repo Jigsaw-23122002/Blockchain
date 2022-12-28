@@ -136,3 +136,9 @@ There are two main type of concensus protocols :
   Suppose one among the nodes A, E and F mines a new block, then the length of their blockchain will now be more and hence the entire network will contain the blockchain of A, E and F.
   <br/><br/>
   ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/12.png)
+
+  Note -
+
+  1. The concensus protocol of the blockchain is much better than the byzantine's general problem as it requires only the 51% of the majority which was 66% in case of byzantine.
+  2. All the transaction in the discarded block will be dropped and the miner that had mined the block will not get any reward.
+  3. So that's why wait for 6 confirmations before assuming payment to be successful.
