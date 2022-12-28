@@ -133,4 +133,6 @@ There are two main type of concensus protocols :
   <br/>This problem is known as competing chain problem and to eliminate such difference of blockchain, a simple rule is used - _Eliminate the block having smaller length and keep the one having larger length_.
 
   Now at this point of time the network will not be able to discard any of the blockchain as the length of both the blockchain is same. So now the network will wait for the new block being added by someone else on the network. Now assuming the computational power of all the nodes on the network same, the chances of blockchain contained by nodes A, E and F to get accepted is more because there are 3 nodes in their favour so chances of them mining a new block is more as compared to the nodes B and C.
-  Suppose one among the nodes A, E and F mines a new block, then the length of their blockchain will now be more and hence the entire network will contain the blockchain of A, E and F
+  Suppose one among the nodes A, E and F mines a new block, then the length of their blockchain will now be more and hence the entire network will contain the blockchain of A, E and F.
+  <br/><br/>
+  ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/12.png)
