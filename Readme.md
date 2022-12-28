@@ -238,3 +238,4 @@ The two principles given by Satoshi Nakamoto for bitcoin's monetory policy are :
   So, In this way it is estimated that in 2140 the reward of mining the block will be 0 bitcoins.
 
   Satoshi estimated this start value of 50 bitcoins by considering the constraint that only 21 million bitcoins will be available for transaction in all together.
+  The algorithm is designed such that it automatically keeps the track when to half the value.
