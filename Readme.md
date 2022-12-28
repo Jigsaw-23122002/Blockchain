@@ -1,5 +1,7 @@
 # Blockchain
 
+## Introduction
+
 Blockchain is a disruptive technology.
 Disruptive technology is a technology that completely changes the traditional technology into a more enhanced version.
 For eg: Tanga was replaced by car, bus and other vehicles as they are fast and more feasible as compared to the tanga. So they are disruptive technology. Similarly Email, Internet is also the disruptive technology in the communication environment.
@@ -77,6 +79,6 @@ Suppose the network is as follows shown in figure. Now suppose A mines a block a
 
 1. Why do we need distributed P2P in blockchain ?
 
-- Suppose Hacker hacks the blockchain of device A and changes the blocks in it. As soon as the changes are done in the blockchain of A, the neighbours B, F and E will be notified with the changes to agree and disagree. Obviously the changes will be milacious as it is changed by the hacker so B, E and F will disagree from the changes and the blockchain of A will be again changed back to the original blockchain.
+- Suppose Hacker hacks the blockchain of device A and changes the blocks in it. As soon as the changes are done in the blockchain of A, the neighbours B, F and E will be notified with the changes to agree and disagree. Obviously the changes will be milacious as it is changed by the hacker so B, E and F will disagree from the changes and the blockchain of A will be again changed back to the original blockchain. So in this way distributed network helps us in getting the blockchain secured from the hackers.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/07.png)
