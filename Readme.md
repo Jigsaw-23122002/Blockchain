@@ -142,3 +142,46 @@ There are two main type of concensus protocols :
   1. The concensus protocol of the blockchain is much better than the byzantine's general problem as it requires only the 51% of the majority which was 66% in case of byzantine.
   2. All the transaction in the discarded block will be dropped and the miner that had mined the block will not get any reward.
   3. So that's why wait for 6 confirmations before assuming payment to be successful.
+
+# Bitcoin
+
+(Below content is taken from the article : https://8bitsumo.com/difference-between-coin-token-protocol/)
+
+## What is Cryptocurrency ?
+
+Before we delve into complicated matters, let start at the beginning and explain what cryptocurrencies are and why the name “cryptocurrency” doesn’t capture all the nuances.
+I’m sure that by now you know that cryptocurrencies are digital/virtual money. But do you interpret this phrases correctly? In a sense, your money in the bank also could be called “digital” because they exist as a sum in your bank account. But whenever you feel like it, you can go to the nearest machine and withdraw them.
+In addition to this, in case someone deceives you, or you pay for something you don’t receive, you can file a complaint, and you’ll probably get part of your money back.
+
+Cryptocurrencies are virtual because they don’t exist as material objects. You can’t touch them, withdraw them, or store them under your mattress. People get cofounded because everybody talks about “coins.” But these coins are not like the one you’ll find in your purse. They are just a string of data, which you transfer from one account to the other and store in cryptocurrency wallets.
+
+No one but you has control over these digital currencies, which is great on the one hand. But on the other, it also means that you’re the only one responsible for keeping your investments safe, and you can’t complain to anyone if someone cheats you.
+
+We call them cryptocurrencies because cryptography is used to secure and validate the transactions and to make sure that no one can create thousands of “coins” easily.
+
+By this point, some of you might be wondering how something that doesn’t exist can be worth something.
+But have you actually thought what money is? Economically speaking, money functions as:
+
+1. ​A unit of account
+2. ​A store of value
+   ​3) A medium of exchange
+
+If we go back in the centuries, we’ll see that people used many goods as currency – metals, pelts, corn, and so on. Banknotes became valuable because they represented gold – a metal, which people deemed precious and rare, and they wanted to have it.
+
+The same is happening with cryptocurrencies. They are valuable because people want to own them. If no one were interested in buying bitcoins or Litecoins, they would be useless and worthless, and you wouldn’t be reading this article.
+
+Today, when people hear “cryptocurrency”, they immediately think Bitcoin. Bitcoin is the first among many. There are “coins” and “tokens” which are regarded as cryptocurrencies, but they don’t have the same functions. What’s more, people don’t use them as a medium of exchange, e.g. to buy and sell things.
+
+## What is protocol ?
+
+So, if the blockchain is the idea, the protocols are the sets of rules, which define the idea. I know that it’s hard to comprehend, so let me give you an example.
+
+Think about the blockchain as language itself – the concept of communicating with other people with words/signs. But not everybody speaks the same language. So protocols would be all those individual languages that exist – like English, French, Spanish, which have their own sets of grammar rules. They are all based on the same idea – to communicate – but execute it differently.
+
+Wait a minute. Don’t all cryptocurrencies use the same protocol developed by the creators of Bitcoin? No, the Bitcoin protocol was the first one, but other cryptocurrencies have their independent protocols, their own rules of communicating between the different nodes in the chain.
+
+Take Bitcoin and Ethereum – one of the most popular cryptocurrencies – for example. Bitcoin transactions require 10-15 minutes to confirm, while Ethereum ones get validated in seconds. Bitcoin uses a hash algorithm to encrypt, while Ethereum uses ethash. Bitcoin strives to be an alternative to fiat currencies, while Ethereum aims to facilitate peer-to-peer contracts.
+
+As you start to grasp, all the important rules are defined by the protocols – consensus, validation, and participation in the network. That’s why every cryptocurrency is different and unique, even those based on Bitcoin.
+
+If you think about it, you’ll realize that you’re already using one protocol without even knowing it. I’m talking about BitTorrent, which allows us to send files through a torrent application, which runs the BitTorrent protocol.
