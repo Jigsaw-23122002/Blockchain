@@ -123,9 +123,9 @@ There are two main type of concensus protocols :
   Also mining a block is a very costly task for the miners(Very hogh computational power computer is needed and the hardware has to be kept in cool conditions so as to avoid the fire) and they themselve avoid to the add some milacious or corrupt block into the blockchain as the incentives which was meant to be given to them for mining will not be given to them.
 
 - **Competing Chain Problem**
-  <br>Suppose node A and node C simultaneously mine a block and adds the mined block into their respective blockchain. Now the notification is sent to the remaining nodes onto the network by the nodes A and C to change the blockchain of all the other nodes (shown inn the diagram below).
+  <br>Suppose node A and node C simultaneously mine a block and adds the mined block into their respective blockchain. Now the notification is sent to the remaining nodes onto the network by the nodes A and C to change the blockchain of all the other nodes (shown inn the diagram below).<br>
   ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/11.png)
-  Let's assume that the notification sent by node A reaches node C and E and the notification sent by the node C reaches the node B. So after verifying the validity of the new block, nodes C and E adds them into their blockchain too and similarly node B will also add the new block of node C into its blockchain after verifying its validity.
-  So, Node A, C and E have the same blockchain and Nodes B and C have the same blockchain (shown in the diagram below). Now the problem is that within the same network, there exists two different blockchains.
+  <br>Let's assume that the notification sent by node A reaches node C and E and the notification sent by the node C reaches the node B. So after verifying the validity of the new block, nodes C and E adds them into their blockchain too and similarly node B will also add the new block of node C into its blockchain after verifying its validity.
+  So, Node A, C and E have the same blockchain and Nodes B and C have the same blockchain (shown in the diagram below). Now the problem is that within the same network, there exists two different blockchains.<br>
   ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/12.png)
-  This problem is known as competing chain problem and to eliminate such difference of blockchain, a simple rule is used - _Eliminate the block having smaller length and keep the one having larger length_.
+  <br>This problem is known as competing chain problem and to eliminate such difference of blockchain, a simple rule is used - _Eliminate the block having smaller length and keep the one having larger length_.
