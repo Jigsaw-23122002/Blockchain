@@ -98,5 +98,9 @@ To understand this problem, let's consider the case where there is a kingdom whi
 Now in ideal case when the conditions was actaully favourable for the attack, all the four enemies would simultaneouly agree to attack onto the kingdom.
 But there might be some case when one or more than one enemy can disagree to attack on the kingdom. This is because they might be the traitor among the enemies.
 So in actual we don't know whether the disagreement to attack the kingdom was because of some valid reason or they were the traitors.
-So this is *Byzantines General Problem*.
-So as to avoid this, Miguel Castro provided the solution to this problem called *Byzantine Fault Tolerance*.
+So this is _Byzantines General Problem_.
+So as to avoid this, Miguel Castro provided the solution to this problem called _Byzantine Fault Tolerance_.
+
+Byzantine Fault Tolerance states that the distributed system can tolerate 1/3 of the total population of the network as the network hackers because the decision is always based on the majority so 2/3 will always take the correct decision no matter what decision the remaining 1/3 will take.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/09.png)
