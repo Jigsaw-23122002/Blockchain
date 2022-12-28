@@ -1,6 +1,6 @@
 # Blockchain
 
-![image](https://i1.wp.com/viden.com.au/wordpress/wp-content/uploads/2016/09/BlockChain.jpeg?fit=6250%2C4000&ssl=1)
+![image](https://i1.wp.com/viden.com.au/wordpress/wp-content/uploads/2016/09/BlockChain.jpeg)
 
 ## Introduction
 
