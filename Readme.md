@@ -121,3 +121,15 @@ There are two main type of concensus protocols :
   Concensus protocol helps us to resolve this problem.
   Whenever the miner tries to add a new block in the blockchain, the other nodes present in the network do not directly add the block into their blockchain too. Instead all the nodes present in the network run an algorithm on the newly added block to check whether it is authenticated block or not.(The time for completely running the algorithm on the newly added block only takes few seconds. This is because checking the mined block is like checking the whether the rubik's cube is solved or not.The solver takes a lot of time for solving the rubik's cube but the checker instead takes only few seconds to check whether it is solved or not)
   Also mining a block is a very costly task for the miners(Very hogh computational power computer is needed and the hardware has to be kept in cool conditions so as to avoid the fire) and they themselve avoid to the add some milacious or corrupt block into the blockchain as the incentives which was meant to be given to them for mining will not be given to them.
+
+- **Competing Chain Problem**
+  <br>Suppose node A and node C simultaneously mine a block and adds the mined block into their respective blockchain. Now the notification is sent to the remaining nodes onto the network by the nodes A and C to change the blockchain of all the other nodes.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/11.png)
+
+Let's assume that the notification sent by node A reaches node C and E and the notification sent by the node C reaches the node B. So after verifying the validity of the new block, nodes C and E adds them into their blockchain too and similarly node B will also add the new block of node C into its blockchain after verifying its validity.
+So, Node A, C and E have the same blockchain and Nodes B and C have the same blockchain. Now the problem is that within the same network, there exists two different blockchains.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/12.png)
+
+This problem is known as competing chain problem and to eliminate such difference of blockchain, a simple rule is used - _Eliminate the block having smaller length and keep the one having larger length_.
