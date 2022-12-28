@@ -115,7 +115,8 @@ There are two main type of concensus protocols :
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/10.png)
 
-- Preventing attacks : We know that when an attacker tries to attack an existing block present somewhere in the middle of the blockchain then this attack can be easily resolved by checking the blockchain with the blockchains present on the other devices in the network.
+- **Preventing attacks**
+  We know that when an attacker tries to attack an existing block present somewhere in the middle of the blockchain then this attack can be easily resolved by checking the blockchain with the blockchains present on the other devices in the network.
   But when the attacker tries to add a new corrupt block at the end of the blockchain then this is difficult to recognize whether the block is corrupt or valid because there is no block in the blockchain present on the other devices in the network containing the newly added block with which we can compare.
   Concensus protocol helps us to resolve this problem.
   Whenever the miner tries to add a new block in the blockchain, the other nodes present in the network do not directly add the block into their blockchain too. Instead all the nodes present in the network run an algorithm on the newly added block to check whether it is authenticated block or not.(The time for completely running the algorithm on the newly added block only takes few seconds. This is because checking the mined block is like checking the whether the rubik's cube is solved or not.The solver takes a lot of time for solving the rubik's cube but the checker instead takes only few seconds to check whether it is solved or not)
