@@ -125,7 +125,10 @@ There are two main type of concensus protocols :
 - **Competing Chain Problem**
   <br>Suppose node A and node C simultaneously mine a block and adds the mined block into their respective blockchain. Now the notification is sent to the remaining nodes onto the network by the nodes A and C to change the blockchain of all the other nodes (shown in the diagram below).
   ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/11.png)
-  Let's assume that the notification sent by node A reaches node C and E and the notification sent by the node C reaches the node B. So after verifying the validity of the new block, nodes C and E adds them into their blockchain too and similarly node B will also add the new block of node C into its blockchain after verifying its validity.
-  So, Node A, C and E have the same blockchain and Nodes B and C have the same blockchain (shown in the diagram below). Now the problem is that within the same network, there exists two different blockchains.
+  Let's assume that the notification sent by node A reaches node E and F and the notification sent by the node C reaches the node B. So after verifying the validity of the new block, nodes E and F adds them into their blockchain too and similarly node B will also add the new block of node C into its blockchain after verifying its validity.
+  So, Node A, E and F have the same blockchain and Nodes B and C have the same blockchain (shown in the diagram below). Now the problem is that within the same network, there exists two different blockchains.
   ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/12.png)
   This problem is known as competing chain problem and to eliminate such difference of blockchain, a simple rule is used - _Eliminate the block having smaller length and keep the one having larger length_.
+
+  Now at this point of time the network will not be able to discard any of the blockchain as the length of both the blockchain is same. So now the network will wait for the new block being added by someone else on the network. Now assuming the computational power of all the nodes on the network same, the chances of blockchain contained by nodes A, E and F to get accepted is more because there are 3 nodes in their favour so chances of them mining a new block is more as compared to the nodes B and C.
+  Suppose one among the nodes A, E and F mines a new block, then the length of their blockchain will now be more and hence the entire network will contain the blockchain of A, E and F
