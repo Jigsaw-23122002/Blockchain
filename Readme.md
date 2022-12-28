@@ -82,3 +82,12 @@ Suppose the network is as follows shown in figure. Now suppose A mines a block a
 - Suppose Hacker hacks the blockchain of device A and changes the blocks in it. As soon as the changes are done in the blockchain of A, the neighbours B, F and E will be notified with the changes to agree and disagree. Obviously the changes will be milacious as it is changed by the hacker so B, E and F will disagree from the changes and the blockchain of A will be again changed back to the original blockchain. So in this way distributed network helps us in getting the blockchain secured from the hackers.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/07.png)
+
+## Blockchain Mining
+
+In this, the group of miners try to solve a particular mathematical problem. A miner who solves that mathematical problem first will get a chance to mine(extract) a block from the mem-pool. Now this mined block is verified by the other miners whether the mined block is valid or not. After the successful verification of the mined block by the other miners on the network the block can be added into the blockchain.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/08.png)
+
+## Byzantine Generals Problem
+
