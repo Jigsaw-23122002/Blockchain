@@ -1,6 +1,6 @@
 # Blockchain
 
-![image](https://149455638.v2.pressablecdn.com/wp-content/uploads/2021/02/Blockchain-Technology.jpg)
+![image](https://i1.wp.com/viden.com.au/wordpress/wp-content/uploads/2016/09/BlockChain.jpeg?fit=6250%2C4000&ssl=1)
 
 ## Introduction
 
