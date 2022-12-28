@@ -1,5 +1,7 @@
 # Blockchain
 
+![image](https://149455638.v2.pressablecdn.com/wp-content/uploads/2021/02/Blockchain-Technology.jpg)
+
 ## Introduction
 
 Blockchain is a disruptive technology.
