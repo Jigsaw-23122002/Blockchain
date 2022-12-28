@@ -104,3 +104,17 @@ So this is _Byzantines General Problem_.
 So as to avoid this, Miguel Castro provided the solution to this problem called _Byzantine Fault Tolerance_.
 
 Byzantine Fault Tolerance states that the distributed system can tolerate 1/3 of the total population of the network as the network hackers because the decision is always based on the majority so 2/3 will always take the correct decision no matter what decision the remaining 1/3 will take.
+
+## Concensus Protocol
+
+Concensus protocol protects us by preventing the attacks and solves the competing chain problem.
+There are two main type of concensus protocols :
+
+1. Proof of work
+2. Proof of stake
+
+We know that when an attacker tries to attack an existing block present somewhere in the middle of the blockchain then this attack can be easily resolved by checking the blockchain with the blockchains present on the other devices in the network.
+But when the attacker tries to add a new corrupt block at the end of the blockchain then this is difficult to recognize whether the block is corrupt or valid because there is no block in the blockchain present on the other devices in the network containing the newly added block with which we can compare.
+Concensus protocol helps us to resolve this problem.
+Whenever the miner tries to add a new block in the blockchain, the other nodes present in the network do not ddirectly add the block into their blockchain too. Instead all the nodes present in the network run an algorithm on the newly added block to check whether it is authenticated block or not.
+Also mining a block is a very costly task for the miners(Very hogh computational power computer is needed and the hardware has to be kept in cool conditions so as to avoid the fire) and they themselve avoid to the add some milacious or corrupt block into the blockchain as the incentives which was meant to be given to them for mining will not be given to them.
