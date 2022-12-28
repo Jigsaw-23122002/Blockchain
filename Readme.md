@@ -164,7 +164,7 @@ But have you actually thought what money is? Economically speaking, money functi
 
 1. ​A unit of account
 2. ​A store of value
-   ​3) A medium of exchange
+3. A medium of exchange
 
 If we go back in the centuries, we’ll see that people used many goods as currency – metals, pelts, corn, and so on. Banknotes became valuable because they represented gold – a metal, which people deemed precious and rare, and they wanted to have it.
 
