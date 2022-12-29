@@ -382,3 +382,5 @@ Considering the above example, we can have -
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/26.png)
 
 In this way, the algorithm ustilises the idle time of the hashing.
+Also, it is quite possible that some transaction has so low fees that the mineers always avoid to pick and under such cases the traansactions are removed from the mempool after 72 hrs.
+So it is always advised to keep considerable fees for confirming the transaction.
