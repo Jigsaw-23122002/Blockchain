@@ -3,18 +3,6 @@
 ![image](https://images.idgesg.net/images/article/2017/10/fintech_financial_technology_blockchain_network_thinkstock_664868402-100739353-large.jpg)
 
 # Contents
-<style>
-ol {
-  counter-reset: item
-}
-li {
-  display: block
-}
-li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item
-}
-</style>
 <ol>
    <li>Blockchain</li>
    <ol>
