@@ -297,3 +297,6 @@ So in such cases what miners do is that they form the groups among themselves to
 The higher percentge of the reward will be given to the miner providing higher power technology for mining the block.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/21.png)
+
+If any new miner has to join the mining pool then by paying small amount in terms of bitcoin, the new miner can join the pool. Also the new miner doen't have to do much, he/she just have to start the machine to generate the hashes.
+One can see the hash rate distribution on - https://www.blockchain.com/explorer/charts/pools
