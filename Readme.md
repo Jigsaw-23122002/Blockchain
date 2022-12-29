@@ -400,3 +400,5 @@ In this way, Each and every transactions are stored in everyone's mempool. When 
 After successfully communicating the information throughout the network, we get something like -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/29.png)
+
+One can check the live addition of the transactions into the mempool on - https://www.blockchain.com/explorer/mempool/btc
