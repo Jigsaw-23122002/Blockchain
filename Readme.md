@@ -239,3 +239,15 @@ The two principles given by Satoshi Nakamoto for bitcoin's monetory policy are :
 
   Satoshi estimated this start value of 50 bitcoins by considering the constraint that only 21 million bitcoins will be available for transaction in all together.
   The algorithm is designed such that it automatically keeps the track when to half the value.
+
+## How mining works ?
+
+The Miners solve the mathematical problem to mine the blocks. Now to understand what kind of mathematical problem is solved by them, we have to first understand the concept of NONCE(a number).
+
+Now solving a particular mathematical problem for miners is to generate the block with hash which is very close to some target value. Now the general structure of block in the block chain is shown below -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/15.png)
+
+Now, we can see that the fields block no., data and previous hash cannot be changed by us. So the only thing we can change is the field called NONCE, such that the hash generated is close to the target value. So solving the mathematical problem means selecting a value for nonce such that the hash generated after passing the through SHA-256 is very close to the target value.
+
+Use this website to have a testing experience : https://demoblockchain.org/block
