@@ -402,3 +402,8 @@ After successfully communicating the information throughout the network, we get 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/29.png)
 
 One can check the live addition of the transactions into the mempool on - https://www.blockchain.com/explorer/mempool/btc
+
+## Transactions and UTXO's
+
+The transactions in blockchain are quite different as compared to the one we do in banks.
+For better understanding of this concept refer this - https://www.youtube.com/watch?v=bRII0JGHyvM&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=24
