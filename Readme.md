@@ -396,3 +396,7 @@ The process can be visualized as (The person with yellow arrow did the transacti
 In this way, Each and every transactions are stored in everyone's mempool. When any miner try to mine the block, it picks the transactions from its mempool and if it successfully mines the block, then it deletes the transactions which is put into the block from the mempool and add the new block into the blockchain and this information is communicated to all the neighbours and the same changes are done by everyone in the network in their mempool and blockchain. This process is also same as that of the domino effect. The visualization can be seen in the figure below -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/28.png)
+
+After successfully communicating the information throughout the network, we get something like -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/29.png)
