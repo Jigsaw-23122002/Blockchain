@@ -253,3 +253,24 @@ Now, we can see that the fields block no., data and previous hash cannot be chan
 Use this website to have a testing experience : https://demoblockchain.org/block
 
 So basically, NONCE is a number that blockchain miners are solving for.
+
+**Target**
+
+1. Target is a number used in mining.
+2. It is a number that a block hash must be below for the block to be added on to the blockchain.
+3. The target adjusts every 2016 blocks (roughly 2 weeks) to try and ensure that the blocks aare mined once every 10 minutes on an average.
+
+Target hashes can be visualized as -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/16.png)
+
+Here we can see that the all possible hashes are from 0000000.......00 to fffffffff.......ff. Now suppose target value is set to something like it must start with 4 zeroes, so the miner hash to select such a NONCE such that the generated hash lies between the smallest hash (0000000......00) and the target hash (0000ffff.....ff).
+The miner will continue to change the nonce unless it gets the satisfactory hash.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/17.png)
+
+In above figure we can see that on putting the nonce value as 100, the hash is not valid.But when we put nonce value as 512, a valid hash is generated as show in figure below.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/18.png)
+
+This means the miner has successfully mined the block.
