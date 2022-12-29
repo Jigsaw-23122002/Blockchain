@@ -15,7 +15,17 @@
       <li><a href="#concensus-protocol">Concensus Protocol</a></li>
    </ul>
    <li>Bitcoin</li>
-   
+   <ul>
+      <li><a href="#what-is-cryptocurrency-">What is Cryptocurrency ?</a></li>
+      <li><a href="#what-is-protocol-">What is Protocol ?</a></li>
+      <li><a href="#what-is-the-difference-between-coins-and-tokens">What is difference between Coins and Tokens ?</a></li>
+      <li><a href="#what-are-coins">What are Coins?</a></li>
+      <li><a href="#what-are-tokens">What are Tokens ?</a></li>
+      <li><a href="#bitcoins-monetory-policy">Bitcoin's Monetory Policy ?</a></li>
+      <li><a href="#how-mining-works-">How mining works ?</a></li>
+      <li><a href="#cpu-vs-gpu-vs-asic">CPU vs GPU vs ASIC</a></li>
+      
+   </ul>
 </ol>
 
 # Blockchain
