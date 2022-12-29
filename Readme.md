@@ -366,3 +366,16 @@ Also the timestamp will change only after 1 second.
 Then what should the miners do for the idle time? as they cannot explore more as everything is already explored.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/24.png)
+
+## Mempool
+
+Mempool is basically the list of unconfirmed transaction. Unconfirmed transaction are those transactions which are not still recorded in the blockchain.
+Miners while mining the block, picks up the transactions from this transaction and it is completely in their hand which transaction to be picked. Each transaction is associated with unique trnsaction id and an associated fees that the miner will get on confirming this transaction by adding it into the block.
+So, Obviously, the miners picks up the transactions for which they will get more fees.In the image below, we can see that the top four transactions with highest fees are picked up as miner will be getting more fees by confirming that transaction.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/25.png)
+
+Now, we had already studied about the problem related to the idle time due to the hash rate and the timestamp. The nonce range is easily exhausted in 4 * 10<sup>-9</sup> seconds and the timestamp can only change after 1 second. Now, we know that in order to change the hash of the block, we can also change the transaction field of the block. So now what the miners do is after 4 * 10<sup>-9</sup> seconds, the miners picks up the transaction providing the minimum fees among the selected transactiion and replace it with the transaction providing the fees just less than the picked up transaction.
+Considering the above example, we can have -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/26.png)
