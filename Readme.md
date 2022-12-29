@@ -14,6 +14,8 @@
       <li><a href="#byzantine-generals-problem">Byzantine's General Problem</a></li>
       <li><a href="#concensus-protocol">Concensus Protocol</a></li>
    </ul>
+   <li>Bitcoin</li>
+   
 </ol>
 
 # Blockchain
