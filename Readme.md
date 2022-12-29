@@ -2,11 +2,6 @@
 
 ![image](https://images.idgesg.net/images/article/2017/10/fintech_financial_technology_blockchain_network_thinkstock_664868402-100739353-large.jpg)
 
-<ul>
-<li>[Introduction](https://github.com/Jigsaw-23122002/Blockchain#introduction)</li>
-<li>[What is Trust ?](https://github.com/Jigsaw-23122002/Blockchain#what-is-trust-)</li>
-<li>[Blockchain Technology](https://github.com/Jigsaw-23122002/Blockchain#blockchain-technology)</li>
-</ul>
 ## Introduction
 
 Blockchain is a disruptive technology.
