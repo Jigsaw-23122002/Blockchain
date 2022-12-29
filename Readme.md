@@ -3,7 +3,7 @@
 ![image](https://images.idgesg.net/images/article/2017/10/fintech_financial_technology_blockchain_network_thinkstock_664868402-100739353-large.jpg)
 
 # Contents
-<ul>
+<ol>
    <li><a href="#introduction">Introduction</a></li>
    <li><a href="#what-is-trust-">What is Trust ?</a></li>
    <li><a href="#blockchain-technology">Blockchain Technology</a></li>
@@ -15,7 +15,7 @@
    <li><a href="#blockchain-mining">Blockchain Mining</a></li>
    <li><a href="#byzantine-generals-problem">Byzantine's General Problem</a></li>
    <li><a href="#concensus-protocol">Concensus Protocol</a></li>
-</ul>
+</ol>
 
 ## Introduction
 
