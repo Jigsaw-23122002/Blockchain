@@ -24,10 +24,11 @@
       <li><a href="#bitcoins-monetory-policy">Bitcoin's Monetory Policy ?</a></li>
       <li><a href="#how-mining-works-">How mining works ?</a></li>
       <li><a href="#cpu-vs-gpu-vs-asic">CPU vs GPU vs ASIC</a></li>
-      
+
    </ul>
 </ol>
 -->
+
 # Blockchain
 
 ![image](https://images.idgesg.net/images/article/2017/10/fintech_financial_technology_blockchain_network_thinkstock_664868402-100739353-large.jpg)
@@ -375,7 +376,7 @@ So, Obviously, the miners picks up the transactions for which they will get more
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/25.png)
 
-Now, we had already studied about the problem related to the idle time due to the hash rate and the timestamp. The nonce range is easily exhausted in 4 * 10<sup>-9</sup> seconds and the timestamp can only change after 1 second. Now, we know that in order to change the hash of the block, we can also change the transaction field of the block. So now what the miners do is after 4 * 10<sup>-9</sup> seconds, the miners picks up the transaction providing the minimum fees among the selected transactiion and replace it with the transaction providing the fees just less than the picked up transaction.
+Now, we had already studied about the problem related to the idle time due to the hash rate and the timestamp. The nonce range is easily exhausted in 4 _ 10<sup>-9</sup> seconds and the timestamp can only change after 1 second. Now, we know that in order to change the hash of the block, we can also change the transaction field of the block. So now what the miners do is after 4 _ 10<sup>-9</sup> seconds, the miners picks up the transaction providing the minimum fees among the selected transactiion and replace it with the transaction providing the fees just less than the picked up transaction.
 Considering the above example, we can have -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/26.png)
