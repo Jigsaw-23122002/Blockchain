@@ -380,3 +380,5 @@ Now, we had already studied about the problem related to the idle time due to th
 Considering the above example, we can have -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/26.png)
+
+In this way, the algorithm ustilises the idle time of the hashing.
