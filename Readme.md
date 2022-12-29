@@ -251,3 +251,5 @@ Now solving a particular mathematical problem for miners is to generate the bloc
 Now, we can see that the fields block no., data and previous hash cannot be changed by us. So the only thing we can change is the field called NONCE, such that the hash generated is close to the target value. So solving the mathematical problem means selecting a value for nonce such that the hash generated after passing the through SHA-256 is very close to the target value.
 
 Use this website to have a testing experience : https://demoblockchain.org/block
+
+So basically, NONCE is a number that blockchain miners are solving for.
