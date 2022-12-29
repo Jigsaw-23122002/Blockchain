@@ -304,3 +304,4 @@ One can see the hash rate distribution on - https://www.blockchain.com/explorer/
 ## Nonce Range
 
 Nonce is a 32 bit integer. So we can max generate 2<sup>32</sup>-1 nonce values i.e. around 4 billion nonce values. This simply implies that we can generate at max 4 billion hashes for any particular block.
+Also SHA-256 is a 64 character long string and at every place we have 16 choices of hexadecimal numbers.So there are 16<sup>64</sup> hashes possible.(i.e. 2<sup>256</sup> hashes)
