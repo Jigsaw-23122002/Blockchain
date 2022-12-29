@@ -389,6 +389,6 @@ So it is always advised to keep considerable fees for confirming the transaction
 
 Each miner in the network and each person/device doing transaction is associated with its own seperate mempool.
 Whenever any person does some transaction then that transaction is added to its mempool. After that this newly added transaction is conveyed to the neighbours and they also add this new transaction in their mempool and similarly conveys this effect forward (similar to domino effect).
-The process can be visualized as(The person with yellow arrow did the transaction and conveyed it to the three of its neighbours) -
+The process can be visualized as (The person with yellow arrow did the transaction and conveyed it to the three of its neighbours) -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/27.png)
