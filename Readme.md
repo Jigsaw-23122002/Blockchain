@@ -325,3 +325,12 @@ We can see int the above image that even for the same nonce, the hash generated 
 So with the help of this, we will be able to access all the possible hashes
 
 Now in every one second, the timestamp field will change, so the nonce will start from the 0 at every second. And also in one second max of 0.1 billion nonce will only be utilized that means we will never be using the entire nonce range instead using part of it, we will be able to explore all the hashes.
+
+Current hashing rate is 180 million trillion hashes/sec for a network.
+One can watch current hashing rate on - https://www.blockchain.com/explorer/charts/hash-rate
+
+If the hashing rate is so high then all the nonce will be cumulatively exhausted by the miners of the network in just 10<sup>-9</sup> seconds only.
+Also the timestamp will change only after 1 second.
+Then what should the miners do for the idle time? as they cannot explore more as everything is already explored.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/24.png)
