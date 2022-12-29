@@ -5,7 +5,7 @@
 # Contents
 <ol>
    <li>Blockchain</li>
-   <ol>
+   <ul>
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#what-is-trust-">What is Trust ?</a></li>
       <li><a href="#blockchain-technology">Blockchain Technology</a></li>
@@ -17,7 +17,7 @@
       <li><a href="#blockchain-mining">Blockchain Mining</a></li>
       <li><a href="#byzantine-generals-problem">Byzantine's General Problem</a></li>
       <li><a href="#concensus-protocol">Concensus Protocol</a></li>
-   </ol>
+   </ul>
 </ol>
 
 ## Introduction
