@@ -4,17 +4,20 @@
 
 # Contents
 <ol>
-   <li><a href="#introduction">Introduction</a></li>
-   <li><a href="#what-is-trust-">What is Trust ?</a></li>
-   <li><a href="#blockchain-technology">Blockchain Technology</a></li>
-   <li><a href="#applications-of-blockchain">Application Of Blockchain</a></li>
-   <li><a href="#hashing-block">Hashing Block</a></li>
-   <li><a href="#immutable-ledger">Immutable Ledger</a></li>
-   <li><a href="#p2p-network">P2P Network</a></li>
-   <li><a href="#how-does-distributed-p2p-network-work-in-blockchain-">How does distributed P2P network work in blockchain</a></li>
-   <li><a href="#blockchain-mining">Blockchain Mining</a></li>
-   <li><a href="#byzantine-generals-problem">Byzantine's General Problem</a></li>
-   <li><a href="#concensus-protocol">Concensus Protocol</a></li>
+   <li>Blockchain</li>
+   <ol>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#what-is-trust-">What is Trust ?</a></li>
+      <li><a href="#blockchain-technology">Blockchain Technology</a></li>
+      <li><a href="#applications-of-blockchain">Application Of Blockchain</a></li>
+      <li><a href="#hashing-block">Hashing Block</a></li>
+      <li><a href="#immutable-ledger">Immutable Ledger</a></li>
+      <li><a href="#p2p-network">P2P Network</a></li>
+      <li><a href="#how-does-distributed-p2p-network-work-in-blockchain-">How does distributed P2P network work in blockchain</a></li>
+      <li><a href="#blockchain-mining">Blockchain Mining</a></li>
+      <li><a href="#byzantine-generals-problem">Byzantine's General Problem</a></li>
+      <li><a href="#concensus-protocol">Concensus Protocol</a></li>
+   </ol>
 </ol>
 
 ## Introduction
