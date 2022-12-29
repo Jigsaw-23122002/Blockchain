@@ -384,3 +384,11 @@ Considering the above example, we can have -
 In this way, the algorithm ustilises the idle time of the hashing.
 Also, it is quite possible that some transaction has so low fees that the mineers always avoid to pick and under such cases the traansactions are removed from the mempool after 72 hrs.
 So it is always advised to keep considerable fees for confirming the transaction.
+
+## How mempool works
+
+Each miner in the network and each person/device doing transaction is associated with its own seperate mempool.
+Whenever any person does some transaction then that transaction is added to its mempool. After that this newly added transaction is conveyed to the neighbours and they also add this new transaction in their mempool and similarly conveys this effect forward (similar to domino effect).
+The process can be visualized as(The person with yellow arrow did the transaction and conveyed it to the three of its neighbours) -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/27.png)
