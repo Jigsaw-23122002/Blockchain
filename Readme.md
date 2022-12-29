@@ -175,7 +175,7 @@ There are two main type of concensus protocols :
 
 # Bitcoin
 
-![image](https://tse2.mm.bing.net/th?id=OIP.KmF5pKjdsyhAt5pZl_tKygHaE7&pid=Api&P=0)
+![image](https://resize.hswstatic.com/w_907/gif/bitcoin-6.jpg)
 
 ( Below content is taken from the article - https://8bitsumo.com/difference-between-coin-token-protocol/ )
 
