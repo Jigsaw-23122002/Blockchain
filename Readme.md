@@ -300,3 +300,7 @@ The higher percentge of the reward will be given to the miner providing higher p
 
 If any new miner has to join the mining pool then by paying small amount in terms of bitcoin, the new miner can join the pool. Also the new miner doen't have to do much, he/she just have to start the machine to generate the hashes.
 One can see the hash rate distribution on - https://www.blockchain.com/explorer/charts/pools
+
+## Nonce Range
+
+Nonce is a 32 bit integer. So we can max generate 2<sup>32</sup>-1 nonce values i.e. around 4 billion nonce values. This simply implies that we can generate at max 4 billion hashes for any particular block.
