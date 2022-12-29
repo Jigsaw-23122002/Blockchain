@@ -323,3 +323,5 @@ Now in order to have all the possible combinations of the hashes, we introduce a
 
 We can see int the above image that even for the same nonce, the hash generated will be different because timestamp field will be ever increasing.
 So with the help of this, we will be able to access all the possible hashes
+
+Now in every one second, the timestamp field will change, so the nonce will start from the 0 at every second. And also in one second max of 0.1 billion nonce will only be utilized that means we will never be using the entire nonce range instead using part of it, we will be able to explore all the hashes.
