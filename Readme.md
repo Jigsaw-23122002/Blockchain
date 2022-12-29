@@ -274,3 +274,8 @@ In above figure we can see that on putting the nonce value as 100, the hash is n
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/18.png)
 
 This means the miner has successfully mined the block.
+
+**_The change of target is handle automatically by the algorithm i.e. it is not manually changed by anyone_**
+The Bitcoin's target history can be seen below -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/19.png)
