@@ -449,3 +449,13 @@ Website Link - https://tools.superdatascience.com/blockchain/public-private-keys
 Video Link - https://www.youtube.com/watch?v=zgJYNhIQpAI&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=28
 
 ## Segregated Witness
+
+Generally the size of the block in the blockchain is 1 MB. So if we increase the size of the block, then the more transactions can be filled into one particular block and this is advantageous because the miners will get more rewards by filling more transactions in mining just 1 block.
+<br/>
+But the disadvantage is that the block will be needing more bandwidth for propogating through the network. So we cannot increase the size of the block after certain level. So the size of the block was universally decided as 1 MB. But in 2017, There was drastic increase in the transaction using blockchain. So 1 MB was very less to handle so many transactions.
+<br/>
+Also if we observe the transaction details, then for any particular transaction, 60 to 65 precent of data which we are storing for the transaction is to just check whether the transaction is valid or not and there is no other use of that data.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/34.png)
+
+So for transfer of data, what they did is they started transfering signature and public key seperately and the relevant details of transaction seperately. This is why it is known as segregated witness.
