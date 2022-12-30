@@ -427,3 +427,5 @@ The following condition is illustrated in below figure -
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/31.png)
 
 Now in order to have a wallet for any particular individual, the blockchain is scanned throughout and cumulates all ths unused transaction such that X -> Me.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/32.png)
