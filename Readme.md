@@ -441,3 +441,7 @@ Now let's suppose Alice have to send some message, but how the reciever will kno
 So, with every message a private key is attached and by combining the private key and the message, a signature is generated. Now using this signature, the message and the public key the message is verified by passing through the VERIFICATION FUNCTIONS which responds with "YES" if the message is sent by the valid user and "NO" in case the message is not sent by the valid user.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/33.png)
+
+For demo of private and public key refer -
+Website Link - https://tools.superdatascience.com/blockchain/public-private-keys/keys
+Video Link - https://www.youtube.com/watch?v=zgJYNhIQpAI&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=28
