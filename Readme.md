@@ -459,3 +459,5 @@ Also if we observe the transaction details, then for any particular transaction,
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/34.png)
 
 So for transfer of data, what they did is they started transfering signature and public key seperately and the relevant details of transaction seperately. This is why it is known as segregated witness.
+<br/>
+So now more transactions can be filled into the block.
