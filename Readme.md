@@ -429,3 +429,15 @@ The following condition is illustrated in below figure -
 Now in order to have a wallet for any particular individual, the blockchain is scanned throughout and cumulates all ths unused transaction such that X -> Me.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/32.png)
+
+## Private and Public Key
+
+In the above scenario, It is quite possible that the miners can be hackers itself and while putting the transaction into the block, they manupulated the transaction 😈. So in order to avoid such manupulation of the transactions by anyone, the concept of private and public key comes into the play.
+
+Let's consider an example of gmail to understand this concept. The gmail name (e.g. alice@gmail.com) is like a public key which everyone knows that this is the email of person named alice. But private key is like the password of this email. Now this password is known to only Alice and has to keep it safe such that no one else can know that password.
+
+Now let's suppose Alice have to send some message, But how the anyone will know that this message which is sent from the mail of alice@gmail.com is actually sent by Alice. This is identical to the situation that - How the miner will know that the transaction he/she is pulling from the mempool is actually a valid transaction and is not manupulated.
+
+So, with every message the, private key is attcahed and by combining the private key and the message, a signature is generated. Now using this signature, the message and the public key the message is verified by passing through the VERIFICATION FUNCTIONS which responds with "YES" if the message is sent by the valid user and "NO" in case the message is not sent by the valid user.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/33.png)
