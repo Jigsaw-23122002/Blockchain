@@ -438,6 +438,6 @@ Let's consider an example of gmail to understand this concept. The gmail name (e
 
 Now let's suppose Alice have to send some message, but how the reciever will know that this message which is sent from the mail of alice@gmail.com is actually sent by Alice. This is identical to the situation that - How the miner will know that the transaction he/she is pulling from the mempool is actually a valid transaction and is not manupulated.
 
-So, with every message the, private key is attcahed and by combining the private key and the message, a signature is generated. Now using this signature, the message and the public key the message is verified by passing through the VERIFICATION FUNCTIONS which responds with "YES" if the message is sent by the valid user and "NO" in case the message is not sent by the valid user.
+So, with every message a private key is attached and by combining the private key and the message, a signature is generated. Now using this signature, the message and the public key the message is verified by passing through the VERIFICATION FUNCTIONS which responds with "YES" if the message is sent by the valid user and "NO" in case the message is not sent by the valid user.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/33.png)
