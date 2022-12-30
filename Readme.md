@@ -409,3 +409,21 @@ The transactions in blockchain are quite different as compared to the one we do 
 For better understanding of this concept refer this - https://www.youtube.com/watch?v=bRII0JGHyvM&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=24
 
 For better understanding of transaction fees refer this - https://www.youtube.com/watch?v=W_C7ms6rGPo&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=25
+
+## Cryptocurrency Wallets
+
+We know that the blockchain is a distributed technology. There is no central authority which keeps the track of all our transaction and the net balance of cryptocurreny of any particular individual. Cryptocurrency Wallets are the one which shows us our net balance of cryptocurrency of any individual. But here arises the question - How is this possible to keep the track of the individual's cryptocurrency if there is no central technology and using blockchain.
+
+Now let's consider the scenario. Suppose Arjun, Raj, Alice and Bob pays me 0.4, 0.3, 0,7 and 0.1 BTC and then I buy a coffee of 0.5 BTC for which I use the transaction of Alice and mark that transaction as used in which I pay 0.5 BTC to coffee shop and 0.2 BTC to me. Suppose the first four transactions recide in block 1 and next 2 transactions recide in block 2 of the blockchain.
+
+The following condition is illustrated in below figure -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/30.png)
+
+Let's suppose again Arjun, Raj, Alice and Bob pays 0.4, 0.3, 0.7 and 0.1 BTC to me and then I decided to buy noodles for 1.4 BTC for which I utilise the Arjun, Raj and Alice's transaction. So I pay 1.4 BTC to Noodle shop and marks the those three transactions as used. Suppose the new transaction of Arjun, Raj, Alice and Bob is stored in block 3 and the transaction of noodle shop is stored in block 4.
+
+The following condition is illustrated in below figure -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/31.png)
+
+Now in order to have a wallet for any particular individual, the blockchain is scanned throughout and cumulates all ths unused transaction such that X -> Me.
