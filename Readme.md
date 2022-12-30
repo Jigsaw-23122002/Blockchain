@@ -447,3 +447,5 @@ For demo of private and public key refer -
 Website Link - https://tools.superdatascience.com/blockchain/public-private-keys/keys
 <br/>
 Video Link - https://www.youtube.com/watch?v=zgJYNhIQpAI&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=28
+
+## Segregated Witness
