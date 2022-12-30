@@ -403,7 +403,9 @@ After successfully communicating the information throughout the network, we get 
 
 One can check the live addition of the transactions into the mempool on - https://www.blockchain.com/explorer/mempool/btc
 
-## Transactions and UTXO's
+## Transactions and UTXO's and Transaction fees
 
 The transactions in blockchain are quite different as compared to the one we do in banks.
 For better understanding of this concept refer this - https://www.youtube.com/watch?v=bRII0JGHyvM&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=24
+
+For better understanding of transaction fees refer this - https://www.youtube.com/watch?v=W_C7ms6rGPo&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=25
