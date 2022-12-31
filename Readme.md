@@ -491,7 +491,7 @@ Ethereum is an open source blockchain based platform. Ethereum provides ether fo
 ## Ethereum nodes
 
 Ethereum is nothing but a system that runs on P2P distributed technology (decentralized system).
-In the below diagram, A, B, C, D and E are the ethereum nodes.
+In the below diagram, A, B, C, F and E are the ethereum nodes.
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/37.png)
 
