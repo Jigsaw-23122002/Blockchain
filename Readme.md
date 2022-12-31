@@ -485,3 +485,5 @@ Also the master key keeps the track of the generated temporary private keys. But
 # Ethereum
 
 ![image](https://azcoinnews.com/wp-content/uploads/2020/06/ethereum-wallets-with-at-least-32-eth-the-amount-required-for-eth-2-0-staking-have-grown-by-13-this-year.jpg)
+
+Ethereum is an open source blockchain based platform. Ethereum provides ether for transaction just like Bitcoin which provides bitcoins for transaction.
