@@ -481,3 +481,7 @@ So, There is one master private key of each user and while each transaction the 
 In this way, hacker will not be able to track anything of the one who is doing the transaction because everytime he will see different public key/bitcoin address.
 <br/>
 Also the master key keeps the track of the generated temporary private keys. But wise versa is not possible i.e. one cannot determine the master private key using any of the generated temporary private keys.
+
+# Ethereum
+
+![image](https://azcoinnews.com/wp-content/uploads/2020/06/ethereum-wallets-with-at-least-32-eth-the-amount-required-for-eth-2-0-staking-have-grown-by-13-this-year.jpg)
