@@ -574,3 +574,11 @@ Decentralized apps -
 Centralized vs Decentralized apps -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/42.png)
+
+Centralized applications are not trustworthy because we are not aware of how much of data they are taking from the users; We do not know what code is written in the backend. But in case of the decentralized apps, the code is open source and we can see that code. The code is kept open source within any risk because the hosted code cannot be changed by anyone as it is hosted on block which is immutable in blockchain.
+<br/>
+The admin has the full control over disabling anyone's account i.e. they has the full censorship. But in case of the decentralized applications, the data once written cannot be changed by anyone.
+<br/>
+In decentralized applications, you are paid for watching the ads while using the application. But in centralized apps, you are paying in the sense by paying the attention to the ads you are watching and they won't pay you for watching those ads.
+<br/>
+The centralized applications can go down as they have the central servers. But in case of decentralized applications, these applications run on all the nodes of the network so they can never go down.
