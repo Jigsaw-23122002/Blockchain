@@ -606,3 +606,9 @@ Note -
 2. The user that generated the transaction pays for the gas.
 
 ## Ethereum Gas Price
+
+Let's consider the example, Suppose we have to go to point B from point A and for doing so we require 10 litres of petrol. Suppose the cost of 1 litre of petrol is 5 Rs. So that means to go from point A to point B, we require 50 Rs.
+<br/>
+So in the same way, the number of litres is the number of gas and the cost of 1 litre of petrol is the Gas Price. So Gas Price is the amount the sender wants to pay per unit of gas to get the trasaction mined.
+<br/>
+Gas price are denoted in gwei (1 gwei = 10<sup>-9</sup> ETH)
