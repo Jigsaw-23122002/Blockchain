@@ -597,9 +597,12 @@ So for each operation in smart contract there is some cost of gas associated wit
 For e.g. - Multiplication requires 5 gas, Subtraction requires 3 gas and equal to operation requires 3 gas.
 <br/>
 So total gas requirement for running the operation 10\*3 - 6 = ? is 5+3+3 which is 11 gas is required.
+<br/>
 We can see the cost of operation from - https://github.com/djrtwo/evm-opcode-gas-costs/blob/master/opcode-gas-costs_EIP-150_revision-1e18248_2017-04-12.csv
 
 Note -
 
 1. Any transaction that modifies the blockchain costs the gas.
 2. The user that generated the transaction pays for the gas.
+
+## Ethereum Gas Price
