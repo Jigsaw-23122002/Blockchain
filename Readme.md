@@ -525,3 +525,13 @@ Now on delivery, the program of this smart contract is executed and depending up
 So this ensures the perfect process of decision making.
 
 So to host such contract on the ethereum, we need a contract account on the ethereum so that we can run these programs.
+<br/>
+So basically the contract account is created when we deploy any smart contract on to the ethereum blockchain.
+
+## EOA vs CA
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/39.png)
+
+The gas means the cost. No gas is associated with the creation of Externally Owned Account (EOA) where as the cost is assoiciated with the creation of Contract Account as we are deploying our program on to the blockchain which requires an additional space on the block.
+<br/>
+Also both of them requires unique address because if suppose someone wants to send the ether then there shoud always be some unique address so that the sender can send the ether on that address. Similarly to access any contract there must be some unique address associated with that contract otherwise we won't be able to access that contract.
