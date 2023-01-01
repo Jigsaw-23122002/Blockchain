@@ -507,5 +507,21 @@ An ethereum account is an entity with an ether (ETH) balance that can send or re
 <br/>
 There are two types of ethereum accounts:
 
-1. Externally Owned account
+1. Externally Owned account (EOA)
 2. Contract Account
+
+Whenever an account is created on the ethereum, an Externally Owned Account (EOA) is created which is accessed using the private key. For checking the balance in terms of ether, fro send transaction, for recieve trasaction and to have smart contract we need the Externally Owned Account (EOA).
+
+Now contract account are controlled by contract code.
+
+Smart contract is a program which runs on the ethereum blockchain.
+Let's consider an example, suppose A wants to deliver fruits to B and they are at some distance. Now considering all the situations that can root the fruit before delivering it to B, A will try to take all the possible measure to prevent the fruits from getting rotten. Let's consider that the fruits will be safe if the temperature of the container in which fruits are kept is less that 20 Degree Celcius. So, This is programmed as a smart contract and is kept on the blockchain. So this ensures that the smart contract cannot be changed and manupulated.
+<br/>
+So the smart contract program for this situation will look something like -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/38.png)
+
+Now on delivery, the program of this smart contract is executed and depending upon the output, the decision is taken whether to pay or not.
+So this ensures the perfect process of decision making.
+
+So to host such contract on the ethereum, we need a contract account on the ethereum so that we can run these programs.
