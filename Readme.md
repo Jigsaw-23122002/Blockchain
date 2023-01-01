@@ -582,3 +582,9 @@ The admin has the full control over disabling anyone's account i.e. they has the
 In decentralized applications, you are paid for watching the ads while using the application. But in centralized apps, you are paying in the sense by paying the attention to the ads you are watching and they won't pay you for watching those ads.
 <br/>
 The centralized applications can go down as they have the central servers. But in case of decentralized applications, these applications run on all the nodes of the network so they can never go down.
+
+## Ethereum Virtual Machine (EVM)
+
+Now it is possible that some hacker introduces such a code into the new block of the blockchain such that using those codes he can access our personal data, webcam, emails, etc (basically virus). So it such a block is there in a blockchain and blockchain being the decentralized system will introduce such block in all the nodes of the network leading to virus in all the nodes of the network.
+<br/>
+So in order to avoid the introduction of such virus in our system, the ethereum blockchains are present on the Ethereum virtual machines instead of on our own machine. Now the virtual machines do not have the access to the webcam and the personalized information of our system helping us in maintaining ours security.(We know that when we run the linux virtual machine on our system using virtual box, it does not have any access to the contents which is present on our windows system. Same is the case with the Ethereum virtual machine)
