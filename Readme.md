@@ -641,3 +641,5 @@ Suppose the transaction gas limit was set to 22,000. So after the transaction ha
 So one can think that what is the use of gas limit ?, We could have directly ran the program and the cost for that would have been charged to the deployer.
 <br/>
 But suppose the person by mistakenly deployed the program having infinite loop, then in such case the Ether will be contineously be deducted from the deployers account and this loss can be high. So the concept of gas limit was introduced so that the deployer prior to the deployment have a complete idea about the runtime of the program.
+
+Ethereum block - https://etherscan.io/block/16312315
