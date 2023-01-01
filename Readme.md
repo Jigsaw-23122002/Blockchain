@@ -535,3 +535,24 @@ So basically the contract account is created when we deploy any smart contract o
 The gas means the cost. No gas is associated with the creation of Externally Owned Account (EOA) where as the cost is assoiciated with the creation of Contract Account as we are deploying our program on to the blockchain which requires an additional space on the block.
 <br/>
 Also both of them requires unique address because if suppose someone wants to send the ether then there shoud always be some unique address so that the sender can send the ether on that address. Similarly to access any contract there must be some unique address associated with that contract otherwise we won't be able to access that contract.
+
+## Smart Contract
+
+Smart Contract is a program that runs on the ethereum blockchain.
+<br/>
+Why the concept of Smart Contract introduced in Ethereum but not in Bitcoin ?
+The reason was - when satoshi nakamoto introduced the concept of Bitcoin, scripting language used was BITCOINSCRIPT which is not turing complete language while the ethereum was designed using the SOLIDITY language which is turing complete. Now turing complete languages are those languages in which we can write any logic or program but in non turing languages (for e.g. there is not concept of looping), we cannot write complex codes due to unavailability of the basic programming features in a language.
+
+This is the reason why, Bitcoin do nnot have the concept of Smart Contract in it.
+
+Now there are some disadvantages of using the solidity as language. Because if some user put some code containing infinite loop into the blockchain and as the blocks are immutable ledger, the code will run for infinite time and the blockchain network becomes slow.
+<br/>
+This was also one of the reason solidity was not used by satoshi nakamoto in Bitcoin.
+
+Now inorder to overcome this challenge into the ethereum, the founder of ethereum introduced a constraint that one has to pay the amount which is directly proportional to the computations his/her program will be doing while executing the code.
+<br/>
+So if hackers introduced the code into the ethereum blockchain which is doing large computations too slow down the network then it will be them who will be suffering because the cost they will be charged to run that high computation program will also be very high.
+
+Ethereum block looks something like -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/40.png)
