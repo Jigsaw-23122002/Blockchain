@@ -561,3 +561,16 @@ Each node in the blockchain network has -
 
 1. Current state of all smart contracts
 2. History of both the transaction and the smart contract.
+
+## Decentralized apps (Dapps)
+
+Centralized applications are like Facebook, twitter, Youtube, etc. These have a common servers on which multiple clients send the request and they get the corresponding response.
+Now in decentralized apps, the applications are hosted onto the blockchains using the Smart Contract as the backend. These Smart Contracts are running on each and every node of the blockchain network.
+
+Decentralized apps -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/41.png)
+
+Centralized vs Decentralized apps -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/42.png)
