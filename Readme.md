@@ -587,4 +587,19 @@ The centralized applications can go down as they have the central servers. But i
 
 Now it is possible that some hacker introduces such a code into the new block of the blockchain such that using those codes he can access our personal data, webcam, emails, etc (basically virus). So it such a block is there in a blockchain and blockchain being the decentralized system will introduce such block in all the nodes of the network leading to virus in all the nodes of the network.
 <br/>
-So in order to avoid the introduction of such virus in our system, the ethereum blockchains are present on the Ethereum virtual machines instead of on our own machine. Now the virtual machines do not have the access to the webcam and the personalized information of our system helping us in maintaining ours security.(We know that when we run the linux virtual machine on our system using virtual box, it does not have any access to the contents which is present on our windows system. Same is the case with the Ethereum virtual machine)
+So in order to avoid the introduction of such virus in our system, the ethereum blockchains are present on the Ethereum virtual machines instead of on our own machine. Now the virtual machines do not have the access to the webcam and the personalized information of our system helping us in maintaining ours security.(We know that when we run the linux virtual machine on our system using virtual box, it does not have any access to the contents which is present on our windows system.
+
+## Ethereum Gas
+
+Suppose we want the car to move from place A to place B. So achieve this process, we need to have some minimum amount of fuel. In the same way, when we want to run some smart contract on the ethereum blockchain, we need the ethereum fuel to do so.
+<br/>
+So for each operation in smart contract there is some cost of gas associated with it.
+For e.g. - Multiplication requires 5 gas, Subtraction requires 3 gas and equal to operation requires 3 gas.
+<br/>
+So total gas requirement for running the operation 10\*3 - 6 = ? is 5+3+3 which is 11 gas is required.
+We can see the cost of operation from - https://github.com/djrtwo/evm-opcode-gas-costs/blob/master/opcode-gas-costs_EIP-150_revision-1e18248_2017-04-12.csv
+
+Note -
+
+1. Any transaction that modifies the blockchain costs the gas.
+2. The user that generated the transaction pays for the gas.
