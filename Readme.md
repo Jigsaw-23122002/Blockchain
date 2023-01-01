@@ -624,6 +624,20 @@ Let's say that A set gas price per unit as 100 gwei.
 <br/>
 Let's say that A calculated the gas limit of his transaction as 21,000 units.
 <br/>
-So the total fee will be calculated as - _Gas units(limit) x Gas price per unit_
+So the total fee will be calculated as - **Gas units(limit) x Gas price per unit**
 <br/>
 So total fees will be - 21,000 x 100 = 21,00,000 gwei or 0.0021 ETH.
+<br/>
+So, this was the case when the transaction limit was equal to 21,000.
+
+Case when the transaction limit was less than 21,000 but the requirement was 21,000.
+<br/>
+Suppose the transaction gas limit was set to 20,000. So in this case, the transaction will fail because the actual requirement was 21,000 and the sender only sent the cost for 20,000. In such case, the cost paid for 20,000 will not be returned because although the transaction failed, the miner has performed some work, so he has to be paid for that.
+
+Case when the transaction limit was more than 21,000 but the requirement was 21,000.
+<br/>
+Suppose the transaction gas limit was set to 22,000. So after the transaction has completed the cost paid for extra 1,000 will be given back to the sender; means there is no loss in paying more that limit.
+
+So one can think that what is the use of gas limit ?, We could have directly ran the program and the cost for that would have been charged to the deployer.
+<br/>
+But suppose the person by mistakenly deployed the program having infinite loop, then in such case the Ether will be contineously be deducted from the deployers account and this loss can be high. So the concept of gas limit was introduced so that the deployer prior to the deployment have a complete idea about the runtime of the program.
