@@ -556,3 +556,8 @@ So if hackers introduced the code into the ethereum blockchain which is doing la
 Ethereum block looks something like -
 
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/40.png)
+
+Each node in the blockchain network has -
+
+1. Current state of all smart contracts
+2. History of both the transaction and the smart contract.
