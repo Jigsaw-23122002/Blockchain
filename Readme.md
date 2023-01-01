@@ -612,4 +612,18 @@ Let's consider the example, Suppose we have to go to point B from point A and fo
 So in the same way, the number of litres is the number of gas and the cost of 1 litre of petrol is the Gas Price. So Gas Price is the amount the sender wants to pay per unit of gas to get the trasaction mined.
 <br/>
 Gas price are denoted in gwei (For e.g. 1 gwei = 10<sup>-9</sup> ETH (Ether))
-The Gas price for any transaction is decided by the us. The higher we set the gas price in terms of ether, more is the probablity that the miner will pick our transaction first.
+The Gas price for any transaction is decided by the sender. The higher the sender set the gas price in terms of ether, more is the probablity that the miner will pick our transaction first.
+
+## Ethereum Gas Limit
+
+It is the maximum amount of gas the ttransaction will consume. It is set by the sender.
+<br/>
+Let's say that A has to pay 2 ETH to B. So what will be the total fees that A has to pay.
+<br/>
+Let's say that A set gas price per unit as 100 gwei.
+<br/>
+Let's say that A calculated the gas limit of his transaction as 21,000 units.
+<br/>
+So the total fee will be calculated as - _Gas units(limit) x Gas price per unit_
+<br/>
+So total fees will be - 21,000 x 100 = 21,00,000 gwei or 0.0021 ETH.
