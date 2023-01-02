@@ -43,10 +43,10 @@ class Blockchain {
   }
 }
 
-const blockchain = new Blockchain();
-blockchain.addBlock({ data: "This is block no.1" });
-blockchain.addBlock({ data: "This is block no.2" });
-console.log(Blockchain.isValidChain(blockchain.chain));
-console.log(blockchain);
+// const blockchain = new Blockchain();
+// blockchain.addBlock({ data: "This is block no.1" });
+// blockchain.addBlock({ data: "This is block no.2" });
+// console.log(Blockchain.isValidChain(blockchain.chain));
+// console.log(blockchain);
 
 module.exports = Blockchain;
