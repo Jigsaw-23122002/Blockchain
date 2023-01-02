@@ -1,3 +1,4 @@
+const mine_rate = 1000; // 1sec
 const initial_diff = 2;
 const genesis_data = {
   timestamp: 1,
@@ -8,4 +9,4 @@ const genesis_data = {
   data: [],
 };
 
-module.exports = { genesis_data };
+module.exports = { genesis_data, mine_rate };
