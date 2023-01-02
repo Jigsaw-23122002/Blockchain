@@ -5,6 +5,7 @@ let prevTimestamp, nextTimestamp, nextBlock, timeDiff, averageDiff;
 const times = [];
 
 blockchain.addBlock({ data: "This is sample block." });
+console.log(blockchain.chain[blockchain.chain.length - 1]);
 
 for (let i = 0; i < 1000; i++) {
   prevTimestamp = blockchain.chain[blockchain.chain.length - 1].timestamp;
