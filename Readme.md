@@ -695,3 +695,13 @@ Suppose at 11 AM, new policy was introduced that allows the max block size to be
 ![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/47.png)
 
 This is known as Hard Fork.
+
+## Soft Fork
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/48.png)
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/49.png)
+
+Let's consider an example - Suppose after mining the block of 0.4 MB, the network decided to decrease the block size to 0.5 MB at 11 AM. So all the blocks whose size is less than or equal to 0.5 will be considered and as soon as the block of size greater than 0.5 is encountered, the branching takes place as shown in the figure. But as the majority lies with the new protocol, the blocks mined by the new branch will be faster and the length will be by default greater. So by the concensus protocol (Longest chain rule) the original chain having blocks size greater than 0.5 has to be rejected and the new chain is the one with block sizes less than or equal to 0.5 MB.
+
+For good understanding refer - https://www.youtube.com/watch?v=3KI6JgY1JAA&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=45
