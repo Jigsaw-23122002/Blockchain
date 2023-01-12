@@ -705,3 +705,19 @@ This is known as Hard Fork.
 Let's consider an example - Suppose after mining the block of 0.4 MB, the network decided to decrease the block size to 0.5 MB at 11 AM. So all the blocks whose size is less than or equal to 0.5 will be considered and as soon as the block of size greater than 0.5 is encountered, the branching takes place as shown in the figure. But as the majority lies with the new protocol, the blocks mined by the new branch will be faster and the length will be by default greater. So by the concensus protocol (Longest chain rule) the original chain having blocks size greater than 0.5 has to be rejected and the new chain is the one with block sizes less than or equal to 0.5 MB.
 
 For good understanding refer - https://www.youtube.com/watch?v=3KI6JgY1JAA&list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0&index=45
+
+## IPO vs ICO
+
+**What is IPO ?**
+
+IPO is initial public offering. The concept is like taking the money from people and offering them shares and using the money of public for making some profit and some part of the profit is shared to the public too.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/50.png)
+
+**What is ICO ?**
+
+ICO is initial coin offering. In this, instead of offering shares to the public, the company provides tokens to the public in exchange for money with the help of which the people can buy the products of the company with less cost than the original price in future.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/51.png)
+
+In ICO's the investors do not have any control over the company. In IPO's, the investors have the part of control of the company as they own the shares.
