@@ -671,3 +671,27 @@ DAO Timeline -
 There was a fault in the code of the smart contract which hackers/group of hackers found and stole 60 to 65 million dollars of funding from the DAO organization.
 <br/>
 To counter the attack, the first proposal was established by the DAO organization and the hard fork was completed around 1 month later. Hard fork divided the ethereum blockchain into 2 parts called ethereum classic blockchain and ethereum blockchain.
+
+## Hard Fork
+
+Now when the DAO organization was under the attack, the smart contract has to be changed. But it was designed such that it cannot be changed. So what the DAO decided is to create a new smart contract and because of the concept of immutability, we have to split the blockchain and this process is known as hard fork.
+<br/>
+So ethereum classic was the blockchain which doesn't allow the smart contract to be chnaged and ethereum blockchain allowed the smart contract to be changed. (So after 191999 block, this splitting of blockchain took place)
+
+So during hard fork, Software implementing a protocol and it's mining procedures are upgraded.
+<br/>
+Once the user upgrades their software, that version rejects all transactions from the older software, effectively creating a new branch of blockchain.
+<br/>
+However, those who retain the old software continue to process transactions.
+
+Such type of hard fork was also performed by the bitcoin after knowing the concept of sigbit. So in July 2017, the bitcoin community adopted the concept of sigbit doing the soft fork after the block no 476768. But after sometime in august 2017, bitcoin found that the sigbit is a temporary solution to the problem, instead we have to increase the block size of the blockchain and so hard fork took place after block 478558 leading to 2 branches of the blockchain called bitcoin and bitcoin cash.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/46.png)
+
+Now let's see how hard fork takes place -
+
+Suppose at 11 AM, new policy was introduced that allows the max block size to be greater than 1 MB and max upto 8 MB. So suppose at 12 PM, a new block of size 0.7 MB was mined and since it is within the 1 MB size, the blockchain will not branch. So unless the block size is less than 1 MB, the blockchain will not branch. As soon as there is block whose size is greater than 1 MB is mined, the blockchain branches off. And then they parallely starts to expand.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/47.png)
+
+This is known as Hard Fork.
