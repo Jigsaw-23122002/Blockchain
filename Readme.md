@@ -643,3 +643,15 @@ So one can think that what is the use of gas limit ?, We could have directly ran
 But suppose the person by mistakenly deployed the program having infinite loop, then in such case the Ether will be contineously be deducted from the deployers account and this loss can be high. So the concept of gas limit was introduced so that the deployer prior to the deployment have a complete idea about the runtime of the program.
 
 Ethereum block - https://etherscan.io/block/16312315
+
+## Decentralized Autonomous Organization (DAO)
+
+A decentralized autonomous organization (DAO), sometimes called a decentralized autonomous corporation (DAC),is an organization constructed by rules encoded as a computer program that is often transparent, controlled by the organization's members and not influenced by a central government. In general terms, DAOs are member-owned communities without centralized leadership. A DAO's financial transaction records and program rules are maintained on a blockchain. There is no such human interventions.
+
+Difference between DAO and Organization -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/43.png)
+
+Let's consider an example - Suppose we want to donate money to the NGO. So first of all we need to have a trust on the NGO that they will be using this donated money for a good use only. So basically we don't know whether the NGO will be making good use or bad use of the donated money.
+<br/>
+So this trust issue is because the NGO is a human built organization. So instead of making human built organization, we can make a smart contract organization where there is no trust issues as it is a program running on the blockchain which cannot be manipulated by any individual.
