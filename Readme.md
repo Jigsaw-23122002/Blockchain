@@ -655,3 +655,19 @@ Difference between DAO and Organization -
 Let's consider an example - Suppose we want to donate money to the NGO. So first of all we need to have a trust on the NGO that they will be using this donated money for a good use only. So basically we don't know whether the NGO will be making good use or bad use of the donated money.
 <br/>
 So this trust issue is because the NGO is a human built organization. So instead of making human built organization, we can make a smart contract organization where there is no trust issues as it is a program running on the blockchain which cannot be manipulated by any individual.
+
+## The DAO attack
+
+The DAO was an organization where the investors used to give the ether to the organization and in turn they used to get the DAO tokens.
+<br/>
+Now those who have the DAO token only had the right to vote for the investment proposals released by the DAO organization.
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/44.png)
+
+DAO Timeline -
+
+![image](https://github.com/Jigsaw-23122002/Blockchain/blob/master/Information/45.png)
+
+There was a fault in the code of the smart contract which hackers/group of hackers found and stole 60 to 65 million dollars of funding from the DAO organization.
+<br/>
+To counter the attack, the first proposal was established by the DAO organization and the hard fork was completed around 1 month later. Hard fork divided the ethereum blockchain into 2 parts called ethereum classic blockchain and ethereum blockchain.
